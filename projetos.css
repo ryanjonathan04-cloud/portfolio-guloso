@@ -2,13 +2,8 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: Barrio;
-    background-image: 
-     linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0)),
-     url(snowy-forest-v0-i7b9d8f79hcf1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image:
+     linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0));
 }
 
 .navbar {
@@ -36,7 +31,8 @@ body {
     transition: 0.3s;
 }
 
-.menu li a:hover {
+.menu li a:hover{
+    width: 100%;
     display: inline-block;
     color: gray;
     transform: scale(1.1);
@@ -47,4 +43,12 @@ body {
   font-family: "Barrio", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+.pdf-container {
+    width: 70%;
+    height: 500px;
+    position: fixed;
+    margin: 0 auto; /* Centraliza */
+    border: 2px solid #ccc;
 }
