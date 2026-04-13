@@ -1,8 +1,13 @@
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: Barrio;
     background-color: rgb(46, 56, 58);
+    font-family: 'MinhaFonte', system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:100vh;
+    padding-bottom: 50px;
 }
 
 .navbar {
@@ -107,8 +112,19 @@ h1 {
     }
 }
 
-.barrio-regular {
-  font-family: "Barrio", system-ui;
-  font-weight: 400;
+@font-face {
+  font-family: 'MinhaFonte';
+  src:
+       url('VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
+
+.card {
+    width: min(1000px, 90%);
+    background-color:rgb(20,26,27);
+    padding: 50px;
+    border-radius:15px;
+}
+
+

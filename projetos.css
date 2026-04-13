@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'MinhaFonte', system-ui;
 }
 
 body {
@@ -140,4 +141,12 @@ h1{
       transform: translateY(0);
       opacity: 100%;
     }
+}
+
+@font-face {
+  font-family: 'MinhaFonte';
+  src:
+       url('VCR_OSD_MONO_1.001.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
